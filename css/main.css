@@ -99,19 +99,19 @@
 .address h4{
     text-align: center;
 }
-.box{
+.block{
     display: flex;
     flex-wrap: wrap;
     margin-left: 90px;
     text-align: center;
 
 }
-.box p{
+.block p{
     height: 200px;
     width: 200px;
     border: 10px solid blue;
 }
-.box2{
+.block2{
     margin-left: 350px;
 }
 .oem{
@@ -121,4 +121,44 @@
 .indigenous{
     display: flex;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px){
+    .container1{
+        height: 500px;
+        
+    }
+    .container2{
+        height: 1850px;
+    
+    }
+    .tile{
+        height:  1850px;
+    }
+    .pictures{
+        margin-left: 95px;
+    }
+    .container3{
+        height: 645px;
+    }
+    .block{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .block2{
+        margin-left: 1px;
+        margin-top: 20px;
+    }
+    .container4{
+        height: 600px;
+    }
+    .contact{
+        margin-left: 150px;
+        margin-top: 30px;
+    }
+    .address{
+        padding-left: 5px;
+        margin-top: 20px;
+    }
+    
 }
