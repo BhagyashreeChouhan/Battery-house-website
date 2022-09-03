@@ -11,9 +11,6 @@
     margin-left: 30px;
 }
 .header-items{
-     float:right;
-     border: 9px solid none;
-    box-sizing: border-box;
     margin-left: 150px;
     padding-left: 600px;
     
@@ -25,7 +22,7 @@
 .header-items ul li{
     width: 100px;
     float: left;
-    margin: 10px auto;
+    margin: 5px auto;
     text-align: center;
     font-size: 20px;
 }
@@ -153,7 +150,7 @@
         margin-top: 20px;
     }
     .container4{
-        height: 600px;
+        height: 345px;
         width: 100%;
     }
     .contact{
@@ -163,6 +160,18 @@
     .address{
         padding-left: 5px;
         margin-top: 20px;
+    }
+    .header-items{
+        margin-left: 0px;
+        padding-left: 0px;
+       
+    }
+    .header-items ul{
+        margin-right: 10px;
+    }
+    .header img{
+        margin-right: 10px;
+        margin-left: 0px;
     }
     
 }
