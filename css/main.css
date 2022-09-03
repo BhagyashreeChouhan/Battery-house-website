@@ -126,10 +126,12 @@
 @media screen and (max-width: 600px){
     .container1{
         height: 500px;
+        width: 100%;
         
     }
     .container2{
         height: 1850px;
+        width: 100%;
     
     }
     .tile{
@@ -140,6 +142,7 @@
     }
     .container3{
         height: 645px;
+        width: 100%;
     }
     .block{
         margin-left: 50px;
@@ -151,6 +154,7 @@
     }
     .container4{
         height: 600px;
+        width: 100%;
     }
     .contact{
         margin-left: 150px;
