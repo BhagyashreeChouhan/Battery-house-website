@@ -1,0 +1,124 @@
+.header{
+    height: 60px;
+    width:100%;
+    background-color: red;
+    font-family: sans-serif bold;
+    display: flex;
+    position:fixed;
+    top: 0;
+}
+.header img{
+    margin-left: 30px;
+}
+.header-items{
+     float:right;
+     border: 9px solid none;
+    box-sizing: border-box;
+    margin-left: 150px;
+    padding-left: 600px;
+    
+}
+.header-items ul{
+    list-style-type: none;
+    margin-right: 40px;
+}
+.header-items ul li{
+    width: 100px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 20px;
+}
+.header-items ul li:hover{
+    background-color: gray;
+}
+.container1{
+    
+    padding-top: 30px;
+    background-color: blue;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+}
+.div1{
+    padding-top: 40px;
+    text-align: center;
+}
+.about-p{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.container2{
+    background-color: green;
+    height: 700px;
+    width: 100%;
+    
+}
+.tile{
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.4)) , url("../images/pexels-vedanti-245250.jpg");
+}
+.pictures{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 175px;
+}
+.pictures img{
+    height: 250px;
+    width: 350px;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+.pictures iframe{
+    height: 250px;
+    width: 350px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.container3{
+    height: 355px;
+    width: 100%;
+    background-color: gray;
+}
+.container4{
+    height: 300px;
+    width: 100%;
+}   
+.footer{
+    color: gray;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+.address{
+     padding-left: 500px;
+}
+.address h4{
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    text-align: center;
+
+}
+.box p{
+    height: 200px;
+    width: 200px;
+    border: 10px solid blue;
+}
+.box2{
+    margin-left: 350px;
+}
+.oem{
+    display: flex;
+    flex-wrap: wrap;
+}
+.indigenous{
+    display: flex;
+    flex-wrap: wrap;
+}
